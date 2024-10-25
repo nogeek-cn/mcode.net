@@ -1,5 +1,5 @@
 <template>
-  <VPHero name="不止极客" text="始于极客 不止极客" :tagline="tagline" :image="image" :actions="actions"/>
+  <VPHero name="MCODE 微码" text="始于极客 不止极客" :tagline="tagline" :image="image" :actions="actions"/>
 
   <div v-for="(featureOne, index) in homeFeatureDefault.homeFeatureList">
     <VPFeatures :features="featureOne"/>
@@ -24,7 +24,7 @@ import NoGeekProduct from "./product/NoGeekProduct.vue";
 import {useRoute} from "vitepress";
 import {onMounted, watch} from "vue";
 
-const tagline = `技术、产品、商业 <br/>` +
+const tagline = `一些特别有用的技术组件 <br/>` +
     `经验丰富的首席技术官和创始人`
 const image = {light: '/NoGeekAvatar.png', dark: '/NoGeekAvatar.png'}
 const actions = [

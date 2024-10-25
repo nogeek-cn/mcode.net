@@ -30,18 +30,37 @@ export default {
     homeFeatureList: [
         [
             {
-                // 表情包 https://emojikeyboard.io/travel-places
-                "title": div_center_before +
+                "title":
+                    div_center_before +
                     gradient_title_span_before +
-                    "不止极客的由来" +
+                    "mock-everything" +
                     gradient_title_span_after +
                     div_center_after +
                     "<br/> " +
-                    "✅ 我跟你讲一个北京话，叫做“没有金刚钻，不揽瓷器活”。我们有前瞻性吗？我们有，我们没有，我活不到今天。 --段永平波士堂 <br/>"+
-                    "✅ 做正确的事情，比把事情做对更重要。 --段永平 <br/>"+
-                    "✅ 不止极客的灵感来源：无码科技 nocode.com <br/>" +
-                    "✅ 你问我技术强不强，如果不够强，那些结果我肯定拿不到。但是，我认为成功需要的不止是技术强，所以取名为：" +
-                    gradient_span_before + "不止极客" + gradient_span_after + "<br/>",
+                    " ✅ 集成： <font style='color: var(--vp-c-text-2)'> Spring 框架 </font> " + "<br/>"
+                    + " ✅ 时间： <font style='color: var(--vp-c-text-2)'> 任意时间</font> " + "<br/>"
+                    + " ✅ 限制： <font style='color: var(--vp-c-text-2)'> 不依赖任何第三方组件，测试自己的流程 </font> <br/>"
+                    + " ✅ 做法： <font style='color: var(--vp-c-text-2)'> 任意一个类都可以进行 Mock </font> <br/>"
+                    + " ✅ 目标： <font style='color: var(--vp-c-text-2)'> 提升本地集成测试的不完善问题 </font> <br/>"
+                ,
+                "details": "",
+                "link": "",
+                "linkText": ""
+            },
+            {
+                "title":
+                    div_center_before +
+                    gradient_title_span_before +
+                    "primary-instance" +
+                    gradient_title_span_after +
+                    div_center_after +
+                    "<br/> " +
+                    "✅ 环境：<font style='color: var(--vp-c-text-2)'> 分布式环境 </font> " + "<br/>"
+                    + " ✅ 限流： <font style='color: var(--vp-c-text-2)'>调用二方或三方有速率限制 </font> " + "<br/>"
+                    + " ✅ 选择器： <font style='color: var(--vp-c-text-2)'>基于策略选择其中一台机器去执行本地任务 </font> " + "<br/>"
+                    + " ✅ 故障： <font style='color: var(--vp-c-text-2)'> 机器下线、故障做故障迁移 </font> " + "<br/>"
+                    + " ✅ 内存队列： <font style='color: var(--vp-c-text-2)'> 基于内存队列实现永动 </font> " + "<br/>"
+                ,
                 "details": "",
                 "link": "",
                 "linkText": ""
@@ -52,29 +71,35 @@ export default {
                 "title":
                     div_center_before +
                     gradient_title_span_before +
-                    "能力象限" +
+                    "memory-elastic-task" +
                     gradient_title_span_after +
                     div_center_after +
                     "<br/> " +
-                    " ✅ 技术： <font style='color: var(--vp-c-text-2)'> 处理技术本身和业务在技术侧遇到的问题 </font> <br/> " +
-                    " ✅ 产品： <font style='color: var(--vp-c-text-2)'> 优化用户体验、提升运营效率 </font> <br/> " +
-                    " ✅ 管理： <font style='color: var(--vp-c-text-2)'> 搭建核心技术团队、提高凝聚力 </font> <br/> " +
-                    " ✅ 商业： <font style='color: var(--vp-c-text-2)'> 深刻理解并在技术侧落地实施落地公司的商业战略</font> ",
+                    "✅ 依赖：<font style='color: var(--vp-c-text-2)'> 依赖 `primary-instance`做内存偏向 </font> " + "<br/>"
+                    + " ✅ 环境： <font style='color: var(--vp-c-text-2)'> 多台机器的做单机任务执行 </font> " + "<br/>"
+                    + " ✅ 弹性： <font style='color: var(--vp-c-text-2)'> 基于内存实现任务队列的弹性伸缩 </font> " + "<br/>"
+                    + " ✅ 优先级： <font style='color: var(--vp-c-text-2)'> 可以实现人工优先自动等 </font> " + "<br/>"
+                    + " ✅ 通知： <font style='color: var(--vp-c-text-2)'> 不同任务的快速通知，启动 </font> " + "<br/>"
+                    + " ✅ 循环周期： <font style='color: var(--vp-c-text-2)'> 内存的任务实现永动循环 </font> "
+                ,
                 "details": "",
-                "link": "能力象限.html",
+                "link": "",
                 "linkText": ""
             },
             {
                 "title":
                     div_center_before +
                     gradient_title_span_before +
-                    "工作成果" +
+                    "daily-increment-no" +
                     gradient_title_span_after +
                     div_center_after +
                     "<br/> " +
-                    "✅ 支付宝：<font style='color: var(--vp-c-text-2)'> 一次晋升、两次加薪；年度质量硬核郎；程序性能最优 </font> <br/> " +
-                    "✅ 婚礼纪：<font style='color: var(--vp-c-text-2)'> 项目的性能与体验得到 CEO 和使用者的大力好评 </font> <br/> " +
-                    "✅ 原与宙：<font style='color: var(--vp-c-text-2)'> 作为技术负责人带领公司成为数字藏品行业第一 </font> ",
+                    "✅ 环境：<font style='color: var(--vp-c-text-2)'> 分布式 </font> " + "<br/>"
+                    + " ✅ 目标： <font style='color: var(--vp-c-text-2)'> 每日自增号段 </font> " + "<br/>"
+                    + " ✅ 特点： <font style='color: var(--vp-c-text-2)'> 高性能 </font> " + "<br/>"
+                    + " ✅ 特点： <font style='color: var(--vp-c-text-2)'> 高可用 </font> " + "<br/>"
+                    + " ✅ 特点： <font style='color: var(--vp-c-text-2)'> 每日自动归零自增 </font> " + "<br/>"
+                ,
                 "details": "",
                 "link": "",
                 "linkText": ""
@@ -85,13 +110,15 @@ export default {
                 "title":
                     div_center_before +
                     gradient_title_span_before +
-                    "华与华的原则" +
+                    "DDD-view" +
                     gradient_title_span_after +
                     div_center_after +
                     "<br/> " +
-                    "✅ 给钱就干，不给钱就不干 <br/>" +
-                    "✅ 什么时候给钱什么时候干 <br/>" +
-                    "✅ 什么时候开始拖欠，什么时候停止干 <br/>"
+                    "✅ 管控等级：<font style='color: var(--vp-c-text-2)'> 关闭、监控、控制 </font> " + "<br/>"
+                    + " ✅ 注解驱动： <font style='color: var(--vp-c-text-2)'> 划分 Bean 的职责，禁用 @Compontent 和 @Service </font> " + "<br/>"
+                    + " ✅ 全新注解： <font style='color: var(--vp-c-text-2)'> @RemoteProvider、@RemoteConsumer ... </font> " + "<br/>"
+                    + " ✅ 监控模式： <font style='color: var(--vp-c-text-2)'> 所有 Bean 的依赖关系，动态生成依赖图谱 </font> " + "<br/>"
+                    + " ✅ 管控模式： <font style='color: var(--vp-c-text-2)'> 违规的 Bean 的依赖关系，将会抛出错误 </font> "
                 ,
                 "details": "",
                 "link": "",
@@ -101,19 +128,128 @@ export default {
                 "title":
                     div_center_before +
                     gradient_title_span_before +
-                    "stop doing list" +
+                    "aliyun-migrate-utils" +
                     gradient_title_span_after +
                     div_center_after +
                     "<br/> " +
-                    "✅ 不作恶 <br/>" +
-                    "✅ 不投机取巧 <br/>" +
-                    "✅ 不和不专业的人聊专业 <br/>"
+                    "✅ 背景：<font style='color: var(--vp-c-text-2)'> 整个阿里云设施迁移到另一个阿里云设施 </font> " + "<br/>"
+                    + " ✅ 数据完整： <font style='color: var(--vp-c-text-2)'> 无损迁移 </font> " + "<br/>"
+                    + " ✅ 用户体验： <font style='color: var(--vp-c-text-2)'> 无感切换以及迁移 </font> "
                 ,
                 "details": "",
-                "link": "/std.html",
+                "link": "",
                 "linkText": ""
-            }
+            },
         ],
+        [
+
+            {
+                "title":
+                    div_center_before +
+                    gradient_title_span_before +
+                    "orm-core" +
+                    gradient_title_span_after +
+                    div_center_after +
+                    "<br/> " +
+                    "✅ 做法：<font style='color: var(--vp-c-text-2)'> 实现字段名字与字段的函数对应关系的映射 </font> " + "<br/>"
+                    + " ✅ 转化： <font style='color: var(--vp-c-text-2)'> 将字段的函数 转化为 对象的字段名字 </font> " + "<br/>"
+                    + " ✅ 目标： <font style='color: var(--vp-c-text-2)'> 对接所有 java 代码手写字段名的条件拼接 </font> " + "<br/>"
+                    + " ✅ 愿景： <font style='color: var(--vp-c-text-2)'> 给所有的 手动拼接字段名称的 ORM 框架 提供内核整合</font> "
+                ,
+                "details": "",
+                "link": "",
+                "linkText": ""
+            },
+            {
+                "title":
+                    div_center_before +
+                    gradient_title_span_before +
+                    "business-archetype" +
+                    gradient_title_span_after +
+                    div_center_after +
+                    "<br/> " +
+                    "✅ 使用：<font style='color: var(--vp-c-text-2)'> 业务脚手架 </font> " + "<br/>"
+                    + " ✅ 目标： <font style='color: var(--vp-c-text-2)'> 一秒构建出来一个基于 DDD 模式的微服务项目 </font> "
+                ,
+                "details": "",
+                "link": "",
+                "linkText": ""
+            },
+
+
+        ],
+        [
+
+            {
+                "title":
+                    div_center_before +
+                    gradient_title_span_before +
+                    "bury-dots" +
+                    gradient_title_span_after +
+                    div_center_after +
+                    "<br/> " +
+                    "✅ 使用：<font style='color: var(--vp-c-text-2)'> 业务埋点 </font> " + "<br/>"
+                    + " ✅ 目标： <font style='color: var(--vp-c-text-2)'> 统一的埋点文件分离 </font> " + "<br/>"
+                    + " ✅ 格式： <font style='color: var(--vp-c-text-2)'> Json 格式 或 分隔符分隔 </font> "
+                ,
+                "details": "",
+                "link": "",
+                "linkText": ""
+            },
+            {
+                "title":
+                    div_center_before +
+                    gradient_title_span_before +
+                    "web-sign" +
+                    gradient_title_span_after +
+                    div_center_after +
+                    "<br/> " +
+                    "✅ 网关签名：<font style='color: var(--vp-c-text-2)'> 自动签名 </font> " + "<br/>"
+                    + " ✅ 签名： <font style='color: var(--vp-c-text-2)'> RSA非对称加密 </font> " + "<br/>"
+                    + " ✅ 幂等： <font style='color: var(--vp-c-text-2)'> 基于请求做幂等处理 </font> " + "<br/>"
+                    + " ✅ 加密： <font style='color: var(--vp-c-text-2)'> 某些敏感自动做自动加密 </font> "
+                ,
+                "details": "",
+                "link": "",
+                "linkText": ""
+            },
+        ],
+        [
+            {
+                "title":
+                    div_center_before +
+                    gradient_title_span_before +
+                    "aop-log" +
+                    gradient_title_span_after +
+                    div_center_after +
+                    "<br/> " +
+                    "✅ 日志：<font style='color: var(--vp-c-text-2)'> 动态调控日志开关 </font> " + "<br/>"
+                    + " ✅ 日志分层： <font style='color: var(--vp-c-text-2)'> 基于协议层、服务提供者、服务调用者、缓存、数据库等进行多日志文件的分离日志文件 </font> " + "<br/>"
+                    + " ✅ 过滤： <font style='color: var(--vp-c-text-2)'> 日志过长的截取 </font> " + "<br/>"
+                    + " ✅ 优先级： <font style='color: var(--vp-c-text-2)'> 自定义参数、返回值是否打印的单个控制与全局控制 </font> "
+                ,
+                "details": "",
+                "link": "",
+                "linkText": ""
+            },
+            {
+                "title":
+                    div_center_before +
+                    gradient_title_span_before +
+                    "prevent-resubmit" +
+                    gradient_title_span_after +
+                    div_center_after +
+                    "<br/> " +
+                    "✅ 使用：<font style='color: var(--vp-c-text-2)'> 防止重复提交 </font> " + "<br/>"
+                    + " ✅ 依赖： <font style='color: var(--vp-c-text-2)'> Spring EL 表达式、Lock </font> " + "<br/>"
+                    + " ✅ 使用： <font style='color: var(--vp-c-text-2)'> 快速实现业务的防止重复提交 </font> "
+                ,
+                "details": "",
+                "link": "",
+                "linkText": ""
+            },
+
+        ]
 
 
     ],
