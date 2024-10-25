@@ -57,7 +57,7 @@ export default {
                     "<br/> " +
                     "✅ 环境：<font style='color: var(--vp-c-text-2)'> 分布式环境 </font> " + "<br/>"
                     + " ✅ 限流： <font style='color: var(--vp-c-text-2)'>调用二方或三方有速率限制 </font> " + "<br/>"
-                    + " ✅ 选择器： <font style='color: var(--vp-c-text-2)'>基于策略选择其中一台机器去执行本地任务 </font> " + "<br/>"
+                    + " ✅ 选择器： <font style='color: var(--vp-c-text-2)'>基于策略选择某一台机器 </font> " + "<br/>"
                     + " ✅ 故障： <font style='color: var(--vp-c-text-2)'> 机器下线、故障做故障迁移 </font> " + "<br/>"
                     + " ✅ 内存队列： <font style='color: var(--vp-c-text-2)'> 基于内存队列实现永动 </font> " + "<br/>"
                 ,
