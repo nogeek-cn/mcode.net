@@ -151,10 +151,10 @@ export default {
                     gradient_title_span_after +
                     div_center_after +
                     "<br/> " +
-                    "✅ 做法：<font style='color: var(--vp-c-text-2)'> 实现字段名字与字段的函数对应关系的映射 </font> " + "<br/>"
-                    + " ✅ 转化： <font style='color: var(--vp-c-text-2)'> 将字段的函数 转化为 对象的字段名字 </font> " + "<br/>"
-                    + " ✅ 目标： <font style='color: var(--vp-c-text-2)'> 对接所有 java 代码手写字段名的条件拼接 </font> " + "<br/>"
-                    + " ✅ 愿景： <font style='color: var(--vp-c-text-2)'> 给所有的 手动拼接字段名称的 ORM 框架 提供内核整合</font> "
+                    "✅ 做法：<font style='color: var(--vp-c-text-2)'> 实现字段的函数与名字的映射关系 </font> " + "<br/>"
+                    + " ✅ 转化： <font style='color: var(--vp-c-text-2)'> 将字段的函数转化为字段名字 </font> " + "<br/>"
+                    + " ✅ 目标： <font style='color: var(--vp-c-text-2)'> 改进手写字段名的条件拼接 </font> " + "<br/>"
+                    + " ✅ 愿景： <font style='color: var(--vp-c-text-2)'> 提供 ORM 内核，可以进行二次整合</font> "
                 ,
                 "details": "",
                 "link": "",
