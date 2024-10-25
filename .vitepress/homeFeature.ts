@@ -115,10 +115,10 @@ export default {
                     div_center_after +
                     "<br/> " +
                     "✅ 管控等级：<font style='color: var(--vp-c-text-2)'> 关闭、监控、控制 </font> " + "<br/>"
-                    + " ✅ 注解驱动： <font style='color: var(--vp-c-text-2)'> 划分 Bean 的职责，禁用 @Compontent 和 @Service </font> " + "<br/>"
-                    + " ✅ 全新注解： <font style='color: var(--vp-c-text-2)'> @RemoteProvider、@RemoteConsumer ... </font> " + "<br/>"
-                    + " ✅ 监控模式： <font style='color: var(--vp-c-text-2)'> 所有 Bean 的依赖关系，动态生成依赖图谱 </font> " + "<br/>"
-                    + " ✅ 管控模式： <font style='color: var(--vp-c-text-2)'> 违规的 Bean 的依赖关系，将会抛出错误 </font> "
+                    + " ✅ 注解驱动： <font style='color: var(--vp-c-text-2)'> 禁用 @Compontent、@Service </font> " + "<br/>"
+                    + " ✅ 全新注解： <font style='color: var(--vp-c-text-2)'> @MsgSender、@MsgListener ... </font> " + "<br/>"
+                    + " ✅ 监控模式： <font style='color: var(--vp-c-text-2)'> 动态生成所有 Bean 依赖关系图谱 </font> " + "<br/>"
+                    + " ✅ 管控模式： <font style='color: var(--vp-c-text-2)'> 标记、拦截违规的 Bean 的依赖关系 </font> "
                 ,
                 "details": "",
                 "link": "",
