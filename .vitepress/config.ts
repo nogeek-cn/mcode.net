@@ -111,7 +111,7 @@ export default defineConfig({
             'meta',
             {
                 name: 'twitter:creator',
-                content: 'nogeek.cn'
+                content: 'mcode.net'
             }
         ]);
         pageData.frontmatter.head.push([
