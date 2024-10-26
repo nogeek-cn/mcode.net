@@ -89,36 +89,29 @@ export default defineConfig({
             'meta',
             {
                 name: 'keywords',
-                content: `${pageData.title} | 不止极客,nogeek,educode,教育编程,编程教育|Java基础, 多线程, JVM, 虚拟机, 数据库, MySQL, Spring, Redis, MyBatis, 系统设计, 分布式, RPC, 高可用, 高并发`
+                content: `${pageData.title} | 微码产品 | MCode ｜ NoGeek | 不止极客| nogeek,educode,教育编程,编程教育|Java基础, 多线程, JVM, 虚拟机, 数据库, MySQL, Spring, Redis, MyBatis, 系统设计, 分布式, RPC, 高可用, 高并发`
             }
         ]);
 
         pageData.frontmatter.head.push([
             'meta',
             {
-                name: 'og:type',
-                content: 'website'
+                name: 'twitter:card',
+                content: 'summary'
             }
         ]);
         pageData.frontmatter.head.push([
             'meta',
             {
-                name: 'og:site_name',
-                content: '不止极客'
+                name: 'twitter:site',
+                content: 'https://mcode.net'
             }
         ]);
         pageData.frontmatter.head.push([
             'meta',
             {
-                name: 'og:image',
-                content: 'https://nogeek.cn/NoGeekAvatar.png'
-            }
-        ]);
-        pageData.frontmatter.head.push([
-            'meta',
-            {
-                name: 'twitter:image',
-                content: 'https://nogeek.cn/NoGeekAvatar.png'
+                name: 'twitter:creator',
+                content: 'nogeek.cn'
             }
         ]);
         pageData.frontmatter.head.push([
@@ -127,8 +120,25 @@ export default defineConfig({
                 name: 'og:title',
                 content:
                     pageData.frontmatter.layout === 'home'
-                        ? `不止极客`
-                        : `${pageData.title} | 不止极客`
+                        ? `MCode | 微码产品 | NoGeek ｜不止极客`
+                        : `${pageData.title} | MCode | 微码产品 | NoGeek ｜不止极客`
+            }
+        ]);
+        pageData.frontmatter.head.push([
+            'meta',
+            {
+                name: 'og:description',
+                content:
+                    pageData.frontmatter.layout === 'home'
+                        ? `MCode | 微码产品 | NoGeek ｜不止极客`
+                        : `${pageData.description} | MCode | 微码产品 | NoGeek ｜不止极客`
+            }
+        ]);
+        pageData.frontmatter.head.push([
+            'meta',
+            {
+                name: 'og:image',
+                content: 'https://mcode.net/UmlCnAvatar.png'
             }
         ]);
 
