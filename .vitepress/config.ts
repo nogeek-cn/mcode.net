@@ -12,7 +12,7 @@ export default defineConfig({
     },
     head: [
         ['link', {rel: 'manifest', href: '/pwa/manifest.json'}],
-        ['link', {rel: 'icon', href: '/NoGeekAvatar.png'}],
+        ['link', {rel: 'icon', href: '/MCodeAvatar.png'}],
         ['script', {src: '/js/rewrite.js'}],
         // ['script', {src: '/sw-registration.js'}],
         // ['script', {src: '/snackbar.js'}]
@@ -138,7 +138,7 @@ export default defineConfig({
             'meta',
             {
                 name: 'og:image',
-                content: 'https://mcode.net/UmlCnAvatar.png'
+                content: 'https://mcode.net/MCodeAvatar.png'
             }
         ]);
 

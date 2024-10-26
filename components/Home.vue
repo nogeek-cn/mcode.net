@@ -26,7 +26,7 @@ import {onMounted, watch} from "vue";
 
 const tagline = `一些特别有用的技术组件 <br/>` +
     `经验丰富的首席技术官和创始人`
-const image = {light: '/NoGeekAvatar.png', dark: '/NoGeekAvatar.png'}
+const image = {light: '/MCodeAvatar.png', dark: '/MCodeAvatar.png'}
 const actions = [
   {
     text: '付费产品',

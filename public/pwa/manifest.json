@@ -1,13 +1,13 @@
 {
   "name": "mCode",
   "short_name": "mCode",
-  "description": "始于极客 不止极客",
+  "description": "微码产品 |始于极客 不止极客",
   "icons": [{
-    "src": "icons/128.png",
+    "src": "https://mcode.net/MCodeAvatar.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "icons/512.png",
+    "src": "https://mcode.net/MCodeAvatar.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
