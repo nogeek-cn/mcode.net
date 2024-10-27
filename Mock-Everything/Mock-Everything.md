@@ -53,7 +53,7 @@ title: mock everything
 
 
 
-::: tip 背景
+::: tip 小技巧
 
 工具代码放在你们工程目录下的时候，`工具类` 和 `Mock 文件` 记得 添加到 `.gitignore` 文件哦。不要上传到远程仓库哦
 
