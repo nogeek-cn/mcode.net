@@ -39,7 +39,8 @@ export default defineConfig({
                     '401': {hide: true},
                     'products.md': {title: '付费产品'},
                     '联系我购买.md': {hide: true},
-                    '联系我': {hide: true}
+                    '联系我': {hide: true},
+                    'hidden' : {hide: true}
                 },
             }),
         ],
