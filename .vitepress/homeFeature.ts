@@ -44,7 +44,7 @@ export default {
                     + " ✅ 目标： <font style='color: var(--vp-c-text-2)'> 提升本地集成测试的不完善问题 </font> <br/>"
                 ,
                 "details": "",
-                "link": "",
+                "link": "/Mock-Everything/Mock-Everything.html",
                 "linkText": ""
             },
             {
