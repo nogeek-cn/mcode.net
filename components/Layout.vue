@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <template #doc-before>
+      <VipNotify/>
     </template>
 
     <template #doc-footer-before>
@@ -55,6 +56,7 @@ import HeaderVIP from "./head/HeaderVIP.vue";
 
 import NoGeekProduct from "./product/NoGeekProduct.vue";
 import AdWxPublic from "./adWxPublic/AdWxPublic.vue";
+import VipNotify from "./401/VipNotify.vue";
 
 const { Layout } = DefaultTheme
 </script>
