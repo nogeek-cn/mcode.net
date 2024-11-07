@@ -13,6 +13,7 @@
   "author": "Xavi",
   "type": "module",
   "scripts": {
+    "buildmpa": "vitepress build --mpa",
     "build": "vitepress build",
     "dev": "vitepress dev",
     "preview": "vitePress preview"
