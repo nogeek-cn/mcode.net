@@ -1,0 +1,24 @@
+@startuml
+
+skinparam agent {
+    roundCorner 40
+}
+
+
+agent "\n名校 \n" as 名校
+agent "\n资金 \n" as 资金
+agent "\n名师\n" as 名师
+agent "\n好学生\n" as 好学生
+
+名校 -left-> 资金 : 吸引
+名校 -down-> 名师 : 吸引
+资金 -down-> 名师 : 吸引
+
+名校 -down-> 好学生 : 吸引
+名师 -right-> 好学生 : 吸引
+
+
+好学生 -up-> 名校: <font color=red>提高声望
+
+
+@enduml
