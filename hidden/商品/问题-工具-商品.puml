@@ -1,0 +1,36 @@
+@startuml
+
+'skinparam dpi 1200
+
+skinparam card {
+    roundCorner 150
+}
+skinparam agent {
+    roundCorner 90
+}
+
+title: 我的产品
+
+
+
+agent "\n\n现实中的问题\n\n" as 问题
+agent "\n\n找可以解决问题的工具\n\n" as 工具
+card "\n\n<font color=blue size=25><b>付费产品 \n\n" as 我的产品
+
+
+agent "\n\n有商业价值的\n可以让我赚钱\n\n" as 商业价值 #lightblue
+agent "\n\n我感兴趣的\n可以让我坚持\n\n" as 我感兴趣 #lightblue
+agent "\n\n我擅长的\n可以让我优秀\n\n" as 我擅长的 #lightblue
+
+问题 -down-> 工具 : <font color=red><b>驱动 >
+工具 -down-> 商业价值 : <font color=red><b>赋予商业价值 >
+
+商业价值 -down-> 我的产品 : <font color=red><b> 影响决策 >
+我感兴趣 -left-> 我的产品: <font color=red><b>共同影响决策
+我擅长的 -right-> 我的产品: <font color=red><b>共同影响决策
+
+
+
+
+
+@enduml
