@@ -30,7 +30,6 @@ const PRECACHE_LIST = [
   ,
   "/favicon.ico",
   "/404.svg",
-  "/NoGeekAvatar.png",
   "/MCodeAvatar.png"
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css",
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",

@@ -12,7 +12,7 @@ export default defineConfig({
     },
     head: [
         ['link', {rel: 'manifest', href: '/pwa/manifest.json'}],
-        ['link', {rel: 'icon', href: '/MCodeAvatar.png'}],
+        ['link', {rel: 'icon', href: '/favicon.ico'}],
         ['script', {src: '/js/rewrite.js'}],
         // ['script', {src: '/sw-registration.js'}],
         // ['script', {src: '/snackbar.js'}]
