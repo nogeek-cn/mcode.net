@@ -14,8 +14,6 @@ export default defineConfig({
         ['link', {rel: 'manifest', href: '/pwa/manifest.json'}],
         ['link', {rel: 'icon', href: '/favicon.ico'}],
         ['script', {src: '/js/rewrite.js'}],
-        // ['script', {src: '/sw-registration.js'}],
-        // ['script', {src: '/snackbar.js'}]
     ],
 
     title: '不止极客',
