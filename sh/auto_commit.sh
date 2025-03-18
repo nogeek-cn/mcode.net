@@ -9,10 +9,10 @@ echo "${commit_msg}"
 echo "============================================================="
 git pull --no-edit gitee master
 # git pull --no-edit codeup master
-# git pull --no-edit github master
+ git pull --no-edit github master
 git push gitee master
 # git push codeup master
-# git push github master
+ git push github master
 
 
 echo "============================================================="
