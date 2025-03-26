@@ -8,6 +8,8 @@
   <BookAndMovieComponent/>
 
   <NoGeekProduct/>
+
+  <BadgesAwards/>
 </template>
 
 <script setup lang="ts">
@@ -21,6 +23,8 @@ import {default as homeFeatureDefault} from '../.vitepress/homeFeature'
 import BookAndMovieComponent from "./bookAndMovie/BookAndMovieComponent.vue";
 import DocTopToBeMember from './DocTopToBeMember.vue';
 import NoGeekProduct from "./product/NoGeekProduct.vue";
+import BadgesAwards from "./BadgesAwards.vue";
+
 import {useRoute} from "vitepress";
 import {onMounted, watch} from "vue";
 
