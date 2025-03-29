@@ -67,6 +67,7 @@ export default defineConfig({
                 '<a href="https://javaguide.net" target="_blank" style="color: #337ab7; text-decoration: underline">javaguide.net</a>&nbsp &nbsp' +
                 '<a href="https://acodenav.com" target="_blank" style="color: #337ab7; text-decoration: underline">acodenav.com</a>&nbsp &nbsp' +
                 '<a href="https://atemplate.com" target="_blank" style="color: #337ab7; text-decoration: underline">atemplate.com</a>&nbsp &nbsp' +
+                '<a href="https://chequewriting.com" target="_blank" style="color: #337ab7; text-decoration: underline">chequewriting.com</a>&nbsp &nbsp' +
                 '<br/>' +
                 '<br/> Released under the MIT License.',
             copyright: 'Copyright © 2023-present ' +
